@@ -34,7 +34,7 @@ const PasswordField = ({
           <Lock />
         </S.Icon>
         <PasswordInput
-          // type={isVisible ? 'text' : 'password'}
+          data-testid="password-input"
           isVisible={isVisible}
           onChange={onChange}
           value={value}
